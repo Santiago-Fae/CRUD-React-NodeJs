@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    heigth: 100%;
+}
+
+body {
+    background: #E4E7EF;
+}
+
+
+ul.listPagination {
+    display: inline-block;
+    padding: 0;
+    list-style-type: none;  
+}
+
+ul.listPagination a {
+  display: inline;
+}
+
+ul.listPagination a li{
+    color: black;
+    float: left; 
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.listPagination a.active li {
+    background-color: blue;
+    color: white;
+}
+
+ul.listPagination a:hover:not(.active) li {
+    background-color: #ddd;
+}
+
+.boxPagination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

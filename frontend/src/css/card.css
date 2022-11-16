@@ -1,0 +1,68 @@
+.card {
+    flex: 1;
+    padding: 50px;
+}
+
+.card ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style: none;
+}
+
+li.notepad-infos div {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+li.notepad-infos div div {
+    color: #FFFEA6;
+    cursor: pointer;
+}
+
+li.notepad-infos div div:hover {
+    color: #fe8f7a;
+    transition: 0.2s;
+}
+
+li.notepad-infos {
+    background: #FFF;
+    color: black;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+li.notepad-infos strong{
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+li.notepad-infos p {
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+
+li.notepad-infos a {
+    text-decoration: none;
+}
+
+li.notepad-infos span {
+    cursor: pointer;
+    color: #C4C4C4;
+}
+
+li.notepad-infos span:hover {
+    color: #EB8F7A;
+    transition: 0.2s;
+}
+
+li .clientCard {
+    display: flex !important;
+    flex-direction: column;
+}
+
+

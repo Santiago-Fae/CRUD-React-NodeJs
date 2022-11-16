@@ -1,0 +1,15 @@
+.formClient {
+    padding: 50px;
+}
+
+.formClient .formBox {
+    padding: 50px;
+}
+
+.formClient .formBox div {
+    padding: 10px 0;
+}
+
+.formClient .formBox label {
+    margin: 0 10px 0 0;
+}
